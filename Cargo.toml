@@ -1,0 +1,7 @@
+[package]
+name = "lifx-toggle-applet"
+version = "0.1.0"
+authors = ["videah <videah@selfish.systems>"]
+edition = "2018"
+
+[dependencies]
