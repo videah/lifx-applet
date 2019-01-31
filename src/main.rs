@@ -24,7 +24,7 @@ fn main() {
         Ok(w) => app = w,
         Err(_) => panic!("Can't create applet window")
     }
-    app.set_icon_from_file(&"/usr/share/gxkb/flags/ua.png".to_string()).ok();
+    app.set_icon_from_file(&"/usr/share/icons/Adwaita/24x24/status/display-brightness-symbolic.symbolic.png".to_string()).ok();
     for d in DEVICES.values() {
         app.add_menu_item(&d.label().unwrap().to_string(), |_|{}).ok();
         app.add_menu_separator().ok();
