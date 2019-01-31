@@ -35,6 +35,9 @@ fn main() {
             set_bulb_status(d, Power::Standby);
         }).ok();
         app.add_menu_separator().ok();
+        app.add_menu_item(&"Quit".to_string(), |window| {
+            window.quit();
+        }).ok();
     }
     app.wait_for_message();
 }
