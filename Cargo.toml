@@ -5,3 +5,5 @@ authors = ["videah <videah@selfish.systems>"]
 edition = "2018"
 
 [dependencies]
+systray = "0.3.0"
+lifx = {git = "https://github.com/ferristseng/rust-lifx"}
