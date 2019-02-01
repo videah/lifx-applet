@@ -11,7 +11,7 @@ use lifx::Light::*;
 use lifx::{Payload, Power, Bulb, DiscoverOptions};
 
 lazy_static! {
-    static ref CLIENT: lifx::Client = lifx::Client::new("0.0.0.0:1234").unwrap();
+    static ref CLIENT: lifx::Client = lifx::Client::new("0.0.0.0:6969").unwrap();
     static ref DEVICES: HashMap<u64, Bulb<SocketAddr>, RandomState> = CLIENT.devices();
 }
 
